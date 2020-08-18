@@ -3,7 +3,5 @@
   "navigationBarTextStyle": "white",
   "navigationBarBackgroundColor": "#000000",
   "backgroundTextStyle": "dark",
-  "usingComponents": {
-    "pengpai-fade-in-out": "/components/Pengpai-FadeInOut/Pengpai-FadeInOut"
-  }
+  "usingComponents": {}
 }

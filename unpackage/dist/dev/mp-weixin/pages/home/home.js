@@ -92,11 +92,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return recyclableRender; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
-var components = {
-  PengpaiFadeInOut: function() {
-    return __webpack_require__.e(/*! import() | components/Pengpai-FadeInOut/Pengpai-FadeInOut */ "components/Pengpai-FadeInOut/Pengpai-FadeInOut").then(__webpack_require__.bind(null, /*! @/components/Pengpai-FadeInOut/Pengpai-FadeInOut.vue */ 52))
-  }
-}
+var components
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -135,6 +131,18 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -269,16 +277,19 @@ var _json = _interopRequireDefault(__webpack_require__(/*! ../../static/data/jso
 //
 //
 //
-var _default = { components: {}, data: function data() {return { btnnum: 0, indicatorDots: true, autoplay: true, interval: 2000, duration: 500, list: [{ title: '踮起脚尖走向阳光 刚刚浏览本店', img: 'https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er0aq5WuQhWxXcQoQbSnSPywUheQrot5biaFxV47nF2OB0aegkH12q2A6VkGUBDfUVqiaqgzVCJJicDg/132' }, { title: '幸福的小女人  刚刚浏览本店', img: 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIOeUhleCNwcOoTtk9Y1zwmpw76FsmAr1bYcKia2AVPiapbtl34jac7SQgjMaibKDJCqjYaHwvmUh3IQ/132' }, { title: '快乐天使  刚刚浏览本店', img: 'https://wx.qlogo.cn/mmopen/vi_32/OaXz0rjMsrHkZlfxeEqRhhUCKyaXyVSbCQZWFUeZQuUetKhbQRZiclqNQhFfv3yiclOzTl1FgZdjDpwAFG5gDhBg/132' }, { title: '握不住的沙  刚刚浏览本店', img: 'https://wx.qlogo.cn/mmopen/vi_32/bVfMeCPxSQsfBRc1XFHiaAiaZvvdrXC9hMTWAHoqDZKk7HD2By7km1dc55eSEibibKwDaW3ZQ2Zcbccr4KzwILVquQ/132' }, { title: '顺其自然  刚刚浏览本店', img: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJghoO6zuibOUG6AMubJJIUicbbWjyOyljFr4QVZecvRqEhHfkIribPfEyfxiaKY5MpiaAeVjvokLLATDw/132' }], userInfo: { nickName: '', gender: '', avatarUrl: '' }, // 用户信息
-      provinces: _json.default.datas };}, methods: { change: function change(e) {this.btnnum = e;}, goDetail: function goDetail(gid) {uni.navigateTo({ url: "../detail/detail?gid=".concat(gid) });}, getuserinfo: function getuserinfo() {var _this = this; // wx登录
-      wx.login({ success: function success(res) {if (res.code) {//发起网络请求
-            var code = res.code; // 获取微信用户信息
-            wx.getUserInfo({ success: function success(res) {_this.userInfo.nickName = res.userInfo.nickName;_this.userInfo.gender = res.userInfo.gender;_this.userInfo.avatarUrl = res.userInfo.avatarUrl;}, fail: function fail(res) {// 获取失败的去引导用户授权 
-              } });} else {}} });} },
-
-
-  onLoad: function onLoad() {
-  } };exports.default = _default;
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default = { components: {}, data: function data() {return { btnnum: 0, indicatorDots: true, autoplay: true, interval: 2000, duration: 500, provinces: _json.default.datas };}, methods: { change: function change(e) {this.btnnum = e;}, goDetail: function goDetail(gid) {uni.navigateTo({ url: "../detail/detail?gid=".concat(gid) });} }, onLoad: function onLoad() {} };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
