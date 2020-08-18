@@ -15,6 +15,7 @@
                 <image :src="v.url" :key="v.id" mode="scaleToFill"></image>
               </swiper-item>
             </swiper>
+            
           </view>
         </view>
       </view>
