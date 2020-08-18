@@ -1,0 +1,119 @@
+
+page {
+  background-color: #000000;
+}
+.content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.input {
+  margin: 20% 0rem;
+  position: absolute;
+  top: 600rpx;
+  height: 70rpx;
+  width: 50%;
+  color: #FFFFFF;
+  text-align: center;
+  border-bottom: 1px #007AFF solid;
+  border-radius: 10rpx;
+}
+.inputAcc {
+  margin: 20% 0rem;
+  position: absolute;
+  top: 470rpx;
+  height: 70rpx;
+  width: 50%;
+  color: #FFFFFF;
+  text-align: center;
+  border-bottom: 1px #007AFF solid;
+  border-radius: 10rpx;
+}
+.loginBtn {
+  background: -webkit-linear-gradient(left, #4bb0ff, #6149f6);
+  background: linear-gradient(to right, #4bb0ff, #6149f6);
+  border-radius: 200rpx;
+  width: 200rpx;
+  position: absolute;
+  color: white;
+  bottom: 150rpx;
+}
+.logoimg {
+  position: absolute;
+  top: 155rpx;
+  z-index: 10;
+}
+.logo {
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 100rpx;
+}
+.text-area {
+  position: absolute;
+  top: 530rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.title {
+
+  font-size: 25rpx;
+  color: #8f8f94;
+}
+.loader {
+  z-index: 1;
+  position: absolute;
+  top: 130rpx;
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(#f07e6e, #84cdfa, #5ad1cd);
+  background: linear-gradient(#f07e6e, #84cdfa, #5ad1cd);
+  -webkit-animation: animate 1.2s linear infinite;
+          animation: animate 1.2s linear infinite;
+}
+@-webkit-keyframes animate {
+0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes animate {
+0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+.loader:after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #f1f1f1;
+  border: solid white 10px;
+  border-radius: 50%;
+}
+

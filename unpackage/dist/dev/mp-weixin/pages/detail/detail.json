@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "糖醋鱼",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#000000",
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "carousel": "/components/vear-carousel/vear-carousel",
+    "uni-popup-message": "/components/uni-popup/uni-popup-message",
+    "uni-popup-dialog": "/components/uni-popup/uni-popup-dialog"
+  }
+}
